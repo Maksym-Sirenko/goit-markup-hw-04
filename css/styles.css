@@ -231,6 +231,7 @@ button {
     text-align: center;
     min-width: 169px;
     border: none;
+    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button:hover,
@@ -262,6 +263,11 @@ button {
 
 .advantages-section {
     padding: 120px 0;
+}
+
+.advantages-svg {
+    height: 64px;
+    width: 64px;
 }
 
 .advantages-titles {
@@ -400,6 +406,7 @@ button {
 
 .portfolio-list-items {
     width: calc((100% - 48px) / 3);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-list-items:hover {
@@ -430,7 +437,6 @@ button {
 
 .overlay {
     position: absolute;
-    padding: 40px 32px 164px 32px;
     top: 0;
     left: 0;
     width: 100%;
@@ -444,13 +450,13 @@ button {
     color: #f4f4fd;
     transform: translateY(100%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 40px 32px;
 }
 
 
 
 .portfolio-list-items:hover .overlay {
     transform: translate(0);
-    
 }
 /* fourth section */
 
@@ -463,6 +469,11 @@ button {
 .footer-div-container {
     padding: 100px 0;
     display: flex;
+    align-items: baseline;
+}
+
+.footer-logo-container {
+    margin-right: 120px
 }
 
 .footer-logo {
@@ -502,6 +513,7 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #fff;
+    margin-bottom: 16px;
 }
 
 .footer-social {
