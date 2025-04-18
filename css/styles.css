@@ -366,6 +366,8 @@ button {
 
 .social-icons {
     fill: #F4F4FD;
+    height: 16px;
+    width: 16px;
 }
 /* third section */
 
@@ -523,5 +525,10 @@ button {
 .footer-social-icons:hover,
 .footer-social-icons:focus {
     background-color: #31d0aa;
+}
+
+.social-svg-footer {
+    width: 24px;
+    height: 24px;
 }
 /* footer */
