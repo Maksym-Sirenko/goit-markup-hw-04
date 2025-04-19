@@ -513,7 +513,7 @@ section {
 
 .footer-social {
     display: flex;
-    margin-left: 120px;
+    /* margin-left: 120px; */
     column-gap: 120px;
     flex-direction: column;
 }
