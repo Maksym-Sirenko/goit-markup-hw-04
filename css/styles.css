@@ -47,9 +47,6 @@ section {
     padding-bottom: 120px;
 }
 
-button {
-    cursor: pointer;
-}
 
 .container {
     max-width: 1158px;
@@ -214,7 +211,7 @@ button {
     text-align: center;
 }
 
-.button {
+.big-button {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -231,11 +228,12 @@ button {
     text-align: center;
     min-width: 169px;
     border: none;
-    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button:hover,
-.button:focus {
+.big-button:hover,
+.big-button:focus {
     background-color: #404bbf;
 }
 /* first section */
@@ -263,11 +261,6 @@ button {
 
 .advantages-section {
     padding: 120px 0;
-}
-
-.advantages-svg {
-    height: 64px;
-    width: 64px;
 }
 
 .advantages-titles {
@@ -473,7 +466,7 @@ button {
 }
 
 .footer-logo-container {
-    margin-right: 120px
+    margin-right: 120px;
 }
 
 .footer-logo {
@@ -537,10 +530,5 @@ button {
 .footer-social-icons:hover,
 .footer-social-icons:focus {
     background-color: #31d0aa;
-}
-
-.social-svg-footer {
-    width: 24px;
-    height: 24px;
 }
 /* footer */
