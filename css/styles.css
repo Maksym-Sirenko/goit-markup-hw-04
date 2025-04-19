@@ -466,7 +466,9 @@ section {
 }
 
 .footer-logo-container {
+    display: flex;
     margin-right: 120px;
+    flex-direction: column; 
 }
 
 .footer-logo {
