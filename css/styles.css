@@ -456,11 +456,10 @@ section {
 /* footer */
 .footer {
     background-color: #2e2f42;
-    
+    padding: 100px 0;
 }
 
 .footer-div-container {
-    padding: 100px 0;
     display: flex;
     align-items: baseline;
 }
@@ -525,8 +524,15 @@ section {
 }
 
 .footer-social-icons {
+    width: 40px;
+    height: 40px;
     background-color: #4d5ae5;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-svg-footer {
+    width: 24px;
+    height: 24px;
 }
 
 .footer-social-icons:hover,
